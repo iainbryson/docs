@@ -14,7 +14,7 @@ docker exec sharelatex /bin/bash -c "cd /var/www/sharelatex; grunt user:create-a
 * Ask professor to create ShareLatex project and share it read-only with `dtu@pdf.dumper`.
 * Login as `dtu@pdf.dumper`and accept the shared project and get project number.
 * Add course in `/vol/config/sharelatex.yaml`with project number.
-* `cd /vol/quiz-keys; ssh-keygen -N '' -t rsa -f 0xxxx-files`
+* `cd /vol/quiz-keys; ssh-keygen -N '' -t rsa -f 0xxxx`
 * `cd /vol/website-keys; ssh-keygen -N '' -t rsa -f 0xxxx-files`
 * Create Github private repos `0xxxx` and `0xxxx-files`.
   * Copy/paste public keys to Github->Repo->Settings->Deploy Keys->Add Deploy key. Read/write.
