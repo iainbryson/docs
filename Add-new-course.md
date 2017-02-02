@@ -19,5 +19,6 @@ docker exec sharelatex /bin/bash -c "cd /var/www/sharelatex; grunt user:create-a
 * Create Github private repos `0xxxx` and `0xxxx-files`.
   * Copy/paste public keys to Github->Repo->Settings->Deploy Keys->Add Deploy key. Read/write.
   * Add professor in Github->Repo->Settings->Collaborators
+  * Create images/dont_delete_this_file
 * Add course in `/vol/config/quiz.yaml`
 * Add course in `/vol/config/website.yaml`
